@@ -1,0 +1,2 @@
+# humhub-chatwee-module
+WIP
