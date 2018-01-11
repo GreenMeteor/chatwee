@@ -1,0 +1,10 @@
+{
+    "id": "chatwee",
+    "name": "ChatWee",
+    "description": "This module allows users to use [ChatWee](https://chatwee.com) services.",
+    "keywords": ["chatwee"],
+    "version": "1.0.0-beta1",
+    "humhub": {
+    "minVersion": "1.0"
+    },
+}
