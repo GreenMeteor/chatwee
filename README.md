@@ -5,7 +5,11 @@
 This module allows users to use [ChatWee](https://chatwee.com) services and hopefully soon will integrate their SSO.
 
 ## Installing & Setup
-`TBA`
+1. Download via git or normal download
+2. Upload to `/protected/modules`
+3. Sign in/up to ChatWee services and go to Dashboard
+4. Copy the URL within the given JavaScript widget snippet
+5. Place the URL within your ChatWee Settings via `ACP -> ChatWee Settings`
 
 ### __Product Distributors:__
 [@GreenMeteor](https://github.com/GreenMeteor)
