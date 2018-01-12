@@ -1,5 +1,4 @@
 <?php
-
     return [
         'ChatWee Settings' => 'ChatWee Settings',
         'ChatWee Widget URL:' => 'ChatWee Widget URL:',
