@@ -13,9 +13,9 @@ class Events extends \yii\base\Object
     {
         $event->sender->addItem([
             'label' => Yii::t('ChatweeModule.base', 'ChatWee Settings'),
-            'url' => Url::toRoute('/Chatwee/admin/index'),
+            'url' => Url::toRoute('/chatwee/admin/index'),
             'group' => 'settings',
-            'icon' => '<i class="fa fa-discord"></i>',
+            'icon' => '<i class="fa fa-commenting"></i>',
             'isActive' => Yii::$app->controller->module && Yii::$app->controller->module->id == 'chatwee' && Yii::$app->controller->id == 'admin',
             'sortOrder' => 650
         ]);
