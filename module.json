@@ -3,8 +3,8 @@
     "name": "ChatWee",
     "description": "This module allows users to use [ChatWee](https://chatwee.com) services.",
     "keywords": ["chatwee"],
-    "version": "1.0.0-beta2",
+    "version": "1.0.0-beta3",
     "humhub": {
-    "minVersion": "1.0"
+    "minVersion": "1.3"
     }
 }
