@@ -21,6 +21,6 @@ class ChatweeFrame extends Widget
     public function run()
     {
         $url = Yii::$app->getModule('chatwee')->getServerUrl() . '/script/';
-        return $this->render('chatweeframe', ['ChatweeUrl' => $url]);
+        return $this->render('chatweeframe', ['chatweeUrl' => $url]);
     }
 }
