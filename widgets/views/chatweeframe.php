@@ -8,5 +8,5 @@ use humhub\models\Setting;
 ?>
 
 <?= Html::beginTag('div') ?>
-<script src="<?= $ChatweeUrl; ?>"></script>
+<script src="<?= $chatweeUrl; ?>"></script>
 <?= Html::endTag('div'); ?>
