@@ -26,8 +26,8 @@ public static function addChatweeFrame($event)
         if (Yii::$app->user->isGuest) {
             return;
         }
-        $event->sender->view->registerAssetBundle(Assets::className());
-        $event->sender->addWidget(ChatweeFrame::className(), [], [
+        $event->sender->view->registerAssetBundle(Assets::class);
+        $event->sender->addWidget(ChatweeFrame::class, [], [
             'sortOrder' => Setting::Get('timeout', 'chatwee')
         ]);
     }
