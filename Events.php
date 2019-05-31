@@ -15,13 +15,13 @@ class Events extends \yii\base\BaseObject
             'label' => Yii::t('ChatweeModule.base', 'ChatWee Settings'),
             'url' => Url::toRoute('/chatwee/admin/index'),
             'group' => 'settings',
-            'icon' => '<i class="fa fa-commenting"></i>',
+            'icon' => '<i class="fa fa-commenting-o"></i>',
             'isActive' => Yii::$app->controller->module && Yii::$app->controller->module->id == 'chatwee' && Yii::$app->controller->id == 'admin',
             'sortOrder' => 650
         ]);
     }
 
-public static function addChatweeFrame($event)
+    public static function addChatweeFrame($event)
     {
         if (Yii::$app->user->isGuest) {
             return;
