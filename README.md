@@ -1,6 +1,7 @@
 [![](resources/chatweelogo.png)](https://chatwee.com/)
 
 ## [HumHub](https://www.humhub.org/en) ChatWee Module
+[![CLA assistant](https://cla-assistant.io/readme/badge/GreenMeteor/humhub-chatwee-module)](https://cla-assistant.io/GreenMeteor/humhub-chatwee-module)
 
 This module allows users to use [ChatWee](https://chatwee.com) services and hopefully soon will integrate their SSO.
 
