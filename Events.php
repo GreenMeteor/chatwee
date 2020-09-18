@@ -1,9 +1,9 @@
 <?php
+
 namespace humhub\modules\chatwee;
 
 use Yii;
 use yii\helpers\Url;
-use humhub\modules\chatwee\widgets\ChatweeFrame;
 use humhub\models\Setting;
 
 class Events extends \yii\base\BaseObject
@@ -21,13 +21,13 @@ class Events extends \yii\base\BaseObject
         ]);
     }
 
-    public static function addChatweeFrame($event)
+    public static function onLayoutAddonsInit(\yii\base\Event $event)
     {
         if (Yii::$app->user->isGuest) {
             return;
         }
-        $event->sender->view->registerAssetBundle(Assets::class);
-        $event->sender->addWidget(ChatweeFrame::class, [], [
+
+        $event->sender->addWidget(widgets\ChatweeFrame::class, [], [
             'sortOrder' => Setting::Get('timeout', 'chatwee')
         ]);
     }
